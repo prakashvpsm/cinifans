@@ -1,0 +1,77 @@
+[
+    {
+        "movie_name" : "Fight Club",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/Fight_Club_poster.jpeg",
+        "type" : "movie",
+        "userLikes" : 132,
+        "userRating" : 4
+    },
+    {
+        "movie_name" : "Master",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/Master_2021_poster.jpeg",
+        "type" : "movie",
+        "userLikes" : 390,
+        "userRating" : 5
+    },
+    {
+        "movie_name" : "Inception",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/p7825626_p_v10_af.jpeg",
+        "type" : "movie",
+        "userLikes" : 132,
+        "userRating" : 4
+    },
+    {
+        "movie_name" : "Shindler",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/schindler2018_poster.jpeg",
+        "type" : "movie",
+        "userLikes" : 132,
+        "userRating" : 3
+    },
+    {
+        "movie_name" : "Shawshank Redemption",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/ShawshankRedemptionMoviePoster.jpeg",
+        "type" : "movie",
+        "userLikes" : 132,
+        "userRating" : 3
+    },
+    {
+        "movie_name" : "Train to Busan",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/Train_to_Busan.jpeg",
+        "type" : "movie",
+        "userLikes" : 132,
+        "userRating" : 4
+    },
+    {
+        "movie_name" : "Ashes of Love",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/ashes+of+love.jpeg",
+        "type" : "drama",
+        "userLikes" : 132,
+        "userRating" : 3
+    },
+    {
+        "movie_name" : "Bridgerton",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/brifgerton.jpeg",
+        "type" : "drama",
+        "userLikes" : 132,
+        "userRating" : 4
+    },
+    {
+        "movie_name" : "Love Destiny",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/love+destiny.jpg",
+        "type" : "drama",
+        "userLikes" : 132,
+        "userRating" : 5
+    },   {
+        "movie_name" : "Move To Heaven",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/move+to+heaven.jpeg",
+        "type" : "drama",
+        "userLikes" : 132,
+        "userRating" : 3
+    },   {
+        "movie_name" : "We Best Love",
+        "movie_link" : "https://cinifansstatic.s3.ap-south-1.amazonaws.com/webest+love.jpeg",
+        "type" : "drama",
+        "userLikes" : 132,
+        "userRating" : 3
+    }
+]

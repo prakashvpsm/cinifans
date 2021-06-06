@@ -6,6 +6,9 @@ import { getMostViewedPokemonList, getViralPokemonList } from '../src/store/acti
 import Head from 'next/head';
 import SearchAreaContainer from '../src/container-components/search-area';
 import TopMovies from '../src/container-components/home/topMovies';
+import TopDramas from '../src/container-components/home/topDramas';
+
+import './styles/home.less';
 
 class Index extends React.Component {
   isUnMounted = false;
@@ -45,7 +48,11 @@ class Index extends React.Component {
         </div>
 
         <SearchAreaContainer />
-        <TopMovies />
+        <div className="flex items-center cf__content_main_topsection">
+            <TopMovies />
+            <TopDramas/>
+        </div>
+       
 
 
         <br />
