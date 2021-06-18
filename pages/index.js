@@ -43,11 +43,7 @@ class Index extends React.Component {
           <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no' />
         </Head>
 
-        <div style={{ width: '70%', maxWidth: 350, margin: '0 auto 50px', textAlign: 'center' }}>
-          <img src='/images/logo.png' alt='logo' style={{ width: '100%' }} />
-        </div>
 
-        <SearchAreaContainer />
         <div className="flex items-center cf__content_main_topsection">
             <TopMovies />
             <TopDramas/>
