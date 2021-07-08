@@ -40,7 +40,7 @@ class Header extends Component {
         <div className='home'>
           <Link as='/' href='/'>
             <a href='/'>
-              <img src={'/images/logowhite.png'} alt='Home' className="gc__header_logo"></img>
+              <img src={'/images/logo.png'} alt='Home' className="gc__header_logo"></img>
             </a>
           </Link>
         </div>
@@ -55,11 +55,7 @@ class Header extends Component {
                 }
             </div>
         </div>
-        <div className="gc__header_left">
-                <div className="gc__header_left__search">
-                <input type="text" placeholder="Search your fav..."/>
-                </div>
-        </div>
+       
         </div>
       
       
