@@ -33,15 +33,8 @@ class Index extends React.Component {
   }
 
   render() {
-    const {
-      mostViewedPokemonListIsLoading,
-      mostViewedPokemonListData,
-      mostViewedPokemonListError,
-      viralPokemonListIsLoading,
-      viralPokemonListData,
-      viralPokemonListError
-    } = this.props;
-    const title = 'Cinefans';
+ 
+    const title = 'Cinifans';
 
     return (
       <>
