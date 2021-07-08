@@ -7,54 +7,63 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-black;
   src: url("/fonts/Lato/Lato-Black.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-bold-italic;
   src: url("/fonts/Lato/Lato-BlackItalic.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-italic;
   src: url("/fonts/Lato/Lato-Italic.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-light;
   src: url("/fonts/Lato/Lato-Light.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-light-italic;
   src: url("/fonts/Lato/Lato-LightItalic.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-light-italic;
   src: url("/fonts/Lato/Lato-LightItalic.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-regular;
   src: url("/fonts/Lato/Lato-Regular.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-thin;
   src: url("/fonts/Lato/Lato-Thin.ttf");
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: @font-primary-thin-italic;
   src: url("/fonts/Lato/Lato-ThinItalic.ttf");
@@ -129,9 +138,7 @@
 
 
 
-html {
-  background: #efeff5;
-}
+html {}
 
 body {
   min-width: 320px;
@@ -140,28 +147,7 @@ body {
   font-family: @font-primary-regular, @font-sec-regular, sans-serif;
 }
 
-@media (min-width: 576px) {
-  main {
-    width: 576px;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 768px) {
-  main {
-    width: 768px;
-    margin: 0 auto;
-  }
-}
-@media (min-width: 992px) {
-  main {
-    width: 992px;
-  }
-}
-@media (min-width: 1200px) {
-  main {
-    width: 1200px;
-  }
-}
+
 
 // prevent auto zoom when focus on input for mobile
 select,
@@ -188,16 +174,25 @@ a:active {
 }
 
 
-.flex{
-  display:flex;
+.flex {
+  display: flex;
 }
 
-.item-center{
+.item-center {
   align-items: center;
 }
 
-.cf__side_bar_small{
-  border-left:10px solid @primary-color;
+.cf__side_bar_small {
+  border-left: 10px solid @primary-color;
   margin-right: 15px;
+
+}
+
+.cf__border_primary_center_width_100px {
+  width: 100px;
+  margin: 10px auto 0 auto;
+  border-bottom: 2px solid @primary-color;
+  border-bottom-left-radius: 150px;
+  border-bottom-right-radius: 150px;
 
 }
