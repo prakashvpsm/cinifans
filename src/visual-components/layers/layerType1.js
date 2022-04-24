@@ -1,11 +1,11 @@
 import React from 'react';
 import { likepng, starPng } from '../shared/imgURIS';
+import Link from 'next/link';
 
-import './styles/layerType1.less'
-
-export default function LayerType1({src, name, type, ratingCount, likes}) {
+export default function LayerType1({src, name, type, ratingCount, likes, key, basePath}) {
     return (
         <div className="cf__layerType1_main">
+            <Link href={`/${basePath}/${key}`}>
             <div className="flex item-center">
                 <div className="cf__layerType1_profile_img">
                     <img src={src} className=""/>
@@ -30,6 +30,7 @@ export default function LayerType1({src, name, type, ratingCount, likes}) {
                     <p>{likes}</p>
                 </div>
             </div>
+            </Link>
         </div>
     )
 }

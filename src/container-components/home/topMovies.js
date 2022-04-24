@@ -12,7 +12,7 @@ export default function TopMovies() {
             <CardsWithHeader1 headName="Top Movies">
                 {
                     filterMovies.map((item, i) => {
-                        return <LayerType1 key={i} src={item.movie_link} name={item.movie_name} type={item.type} ratingCount={item.userRating} likes={item.userRating}/>
+                        return <LayerType1 key={i} src={item.movie_link} name={item.movie_name} type={item.type} ratingCount={item.userRating} likes={item.userRating} basePath="top-movies"/>
                     })
                 }
             </CardsWithHeader1>

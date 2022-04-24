@@ -1,7 +1,6 @@
 import React from 'react'
 import SocialLinks from './social-links';
 
-import './style.less'
 
 export default function SearchArea() {
   return (

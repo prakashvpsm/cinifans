@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './style.less';
-
 export default function NewAndUpComing({title, items}) {
     return (
         <div className="cf__home__item_list">

@@ -14,8 +14,8 @@ import Slider from '../src/container-components/home/slider.js';
 import NewAndUpComing from '../src/container-components/home/upcoming/new-and-upcoming';
 import Asian from '../src/container-components/home/top-asian/top-asian';
 
-
-import './styles/home.less';
+import WhatsInCini from '../src/container-components/home/whatsInCini';
+import NewOnOtts from '../src/container-components/home/newOnOtts';
 
 class Index extends React.Component {
   isUnMounted = false;
@@ -42,26 +42,16 @@ class Index extends React.Component {
           <title>{title}</title>
           <meta name='viewport' content='width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no' />
         </Head>
-        <Slider />
+        <div>
+            <Slider />
+        </div>
+        
 
-        <div className="cf__home__bottom_container">
-          <NewAndUpComing />
-          <Asian />
-
-          <div className="cf__content_main_topsection_container">
-            <div className="cf__content_main_topsection_head">
-              <div>Top from fans</div>
-              <div className="cf__border_primary_center_width_100px"></div>
-            </div>
-           
-            <div className="flex items-center cf__content_main_topsection">
-              <TopMovies />
-              <TopDramas />
-              <TopSongs />
-              <TopShortFilms />
-            </div>
-          </div>
-
+        <div className="p-4">
+     
+            <WhatsInCini />
+            <NewOnOtts />
+            
         </div>
 
       </>

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import './styles/cardwithHeader1.less'
-
 export default function CardWithHeader1({children, headName}) {
     return (
         <div className="cf__cardWithheader_main">

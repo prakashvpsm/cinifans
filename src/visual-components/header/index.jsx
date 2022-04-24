@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import Router from 'next/router';
-import './style.less';
 
 const menus=[
   {
@@ -34,21 +33,21 @@ const menus=[
 class Header extends Component {
   render() {
     return (
-      <header className='header-component'>
+      <header className='header-component h-full'>
        
-        <div className="gc__header">
+        <div className="gc__header  bg-primary w-full flex items-center h-full px-4">
         <div className='home'>
           <Link as='/' href='/'>
             <a href='/'>
-              <img src={'/images/logo.png'} alt='Home' className="gc__header_logo"></img>
+              <img src={'/images/logowhite.png'} alt='Home' className="w-36"></img>
             </a>
           </Link>
         </div>
-        <div className="header-menus">
-        <div className="gc__header__left--menu">
+        <div className="header-menus ml-auto">
+        <div className="gc__header__left--menu flex items-center gap-4">
                 {
                     menus.map((menu, i) => {
-                        return <div className="gc__header__left--menu--item" key={`header${i}`}>
+                        return <div className="text-themeBg text-sm" key={`header${i}`}>
                                 <Link as={menu.path} href={menu.path}>{menu.name}</Link>
                         </div>
                     })

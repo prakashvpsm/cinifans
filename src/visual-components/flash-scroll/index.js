@@ -1,8 +1,5 @@
 import React from 'react'
 
-import  './style.less'
-
-
 export default function FlashScroll() {
     return (
         <div className="cf__header_flash_scroll">

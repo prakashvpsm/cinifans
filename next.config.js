@@ -1,8 +1,8 @@
-const withLess = require('@zeit/next-less');
 const withPWA = require('next-pwa');
+const withImages = require('next-images')
 
-module.exports = withLess(
-  withPWA({
+
+module.exports = withImages(withPWA({
     pwa: {
       register: false,
       skipWaiting: false,
@@ -20,5 +20,4 @@ module.exports = withLess(
       }
       return config;
     }
-  })
-);
+}))
